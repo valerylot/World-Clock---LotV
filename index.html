@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Exercise · World Clock</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-sky-500 to-indigo-700 text-white">
+  <main class="mx-auto max-w-4xl px-4 py-8">
+    <h1 class="text-3xl font-bold">🌍 World Clock</h1>
+    <p class="mt-2 text-sky-100">One moment in time, four cities. What time is it there, and is the sun up?</p>
+
+    <div id="clocks" class="mt-6 grid gap-4 sm:grid-cols-2"></div>
+  </main>
+
+  <!-- sample-data.js first, so scripts.js can use sampleCities -->
+  <script src="sample-data.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
