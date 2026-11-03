@@ -2,8 +2,8 @@
 //10/3/2026
 //Mini Challenge #8 World Clock
 //What we did: Converted the unix timestamp from the sample data to get the current time at the different cities. Used an if statement to determine whether the it was day time by comparing the dt to the sunrise and sunset times. Wrote 2 p tags using innerHTML for the first time, this displays the times the sun sets and rises for the different cities.
-//Peer Review Name:
-//Review:
+//Peer Review Name: Callen Thomason
+//Review: Launched the website and everything looks great. All the times are correct, the dates are right, and so are the sunrises and sunsets. Code looks good, and if statement for day and night is great. Saved a lot of lines not making seperate variables, and you recognized a return false is not necassary. Overall great work! I would have liked to see you attempt the bonus though, it is easier than you think it is. It just looks scary
 
 
 
